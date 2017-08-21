@@ -3,7 +3,6 @@ spring:
     name: Thesis project backend
   datasource:
     url: jdbc:postgresql://${RDS_HOSTNAME}:${RDS_PORT}/${RDS_DB_NAME}
-    #url: jdbc:postgresql://${RDS_HOSTNAME}:${RDS_PORT}/${RDS_DB_NAME}
     username: ${RDS_USERNAME}
     password: ${RDS_PASSWORD}
     driverClassName: org.postgresql.Driver
@@ -16,4 +15,3 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-
